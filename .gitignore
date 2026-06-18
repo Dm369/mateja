@@ -1,0 +1,63 @@
+# =========================
+# ENV (NEVARNO ZA COMMIT)
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# DEPENDENCIES
+# =========================
+node_modules/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# BUILD OUTPUT
+# =========================
+dist/
+build/
+.next/
+out/
+
+# =========================
+# CACHE / TEMP FILES
+# =========================
+.cache/
+.parcel-cache/
+vite.config.timestamp-*.mjs
+
+# =========================
+# SYSTEM FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / EDITOR
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# TEST / COVERAGE
+# =========================
+coverage/
+
+# =========================
+# LOGS
+# =========================
+logs/
+*.log
+
+# =========================
+# VERCEL (lokal cache)
+# =========================
+.vercel/
